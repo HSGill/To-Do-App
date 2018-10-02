@@ -1,23 +1,58 @@
-<!DOCTYPE html>
-<html>
-<head>
+	<!DOCTYPE html>
+	<html>
+	<head>
 
-<!-- <link rel= "stylesheet" type ="text/css" href ="style.css"/> -->
-	<title>To Do App</title>
-</head>
-<body>
+	<link rel= "stylesheet" type ="text/css" href ="style.css"/> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-<h1>To Do List</h1>
+		<title>To Do App</title>
+	</head>
+	<body>
+		<div class="jumbotron text-center">
+			<h1 class="text-success" >To Do App</h1>
+			
+			
+			<p>
+					<input id = "userInput" type="text" rows ="5"class="form-control form-control-sm"
+					placeholder="Enter Task Here" name="text1"> 
+		
+			<br>
+				<button id="Enter" type="button" rows="2" class="btn btn-primary">Add Task</button>
+			
+			</p>
+		</div>
+		
+		<div class="container">
+			
+				<h3>Task List</h3>
 
-<input id = "userInput" type ="text" placeholder="Enter Text here" />
-<button id="Enter" > Enter </button>
+				<div id ="num1">
 
-<ul id="num1">
-<li>Keep Learning</li>
-<li>Learn Javascript</li>
-<li>Persistance</li>
-</ul>
+<!--<div class="alert alert-success ">
+								<button type="button" class="close" >&times;</button>
+								
+							  </div> -->
+						
+				</div>
+		
 
-<script  src="script.js"> </script>
-</body>
-</html>
+				
+				
+		</div>
+		<!-- 
+	<h1>To Do List</h1>
+	<h2> test</h2>
+
+	<input id = "userInput" type ="text" placeholder="Enter Text here" />
+	<button id="Enter" > Add Task </button>
+
+	<ul id="num1">
+	<li>Keep Learning</li>
+	<li>Learn Javascript</li>
+	<li>Persistance</li>
+	</ul>
+	-->
+	<script  src="script.js"> </script>
+	</body>
+	</html>
