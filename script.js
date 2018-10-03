@@ -4,12 +4,7 @@ var inputText =document.getElementById("userInput");
 var ul =  document.getElementById("num1");
 
 
-var btnClose = document.getElementsByClassName("close");
-btnClose.addEventListener("click", function(){
 
-
-
-})
 
 button.addEventListener("click", function(){
 	if (inputText.value.length>0){
@@ -25,6 +20,10 @@ button.addEventListener("click", function(){
 	ul.appendChild(li);
 	
 	inputText.value ="";
+	btn1.addEventListener("click", function(){
+    ul.removeChild(li);
+
+	})
 	}
       
 })
