@@ -1,3 +1,12 @@
+
+
+
+
+var _ = require('lodash');
+
+
+console.log(_);
+
 var button = document.getElementById("Enter");
 var inputText =document.getElementById("userInput");
 
